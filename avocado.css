@@ -1,0 +1,39 @@
+body{
+align-items: center;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 250px;
+    flex-direction: column;
+}
+
+h2{
+    color: black;
+    font-size: 50px;
+}
+
+.container div{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex: 50%;
+    text-align: center;
+    background-color: black;
+    max-width: 1000px;
+}
+
+img{
+    margin-top: 100px;
+    border: 1px white solid;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+p{
+    font-size: 15px;
+}
